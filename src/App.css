@@ -1,0 +1,53 @@
+.list-appear {
+  transform: translateX(-100%);
+}
+
+.list-appear-active {
+  transform: translateX(0);
+  transition: transform 500ms linear;
+}
+
+.phonebook {
+  background-color: #212121;
+  padding: 1px;
+  padding-left: 5px;
+  margin-bottom: 10px;
+}
+
+.phonebook-head {
+  color: #ffffff;
+}
+
+.alert {
+  position: absolute;
+  left: 25%;
+  top: 25%;
+}
+
+.alert-title-enter {
+  opacity: 0;
+  transform: scale(0.1);
+}
+.alert-title-enter-active {
+  opacity: 1;
+  transform: scale(1);
+  transition: all 250ms linear;
+}
+
+.alert-title-exit {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.alert-title-exit-active {
+  opacity: 0;
+  transform: scale(0.1);
+  transition: all 250ms linear;
+}
+
+.error-notify {
+  color: #ffffff;
+  background-color: #ff6347;
+  padding: 5px 20px;
+  border-radius: 10px;
+}
